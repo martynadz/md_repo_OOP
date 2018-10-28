@@ -1,0 +1,18 @@
+PYTHON:
+@staticmethod		dekorator saticmethod. używamy gdy liczymy coś na klasie, a nie dla konkretnego obiektu, np. zamiast liczyc bmi dla ewy, liczymy bmi czowieka który ma określony wzrost i określoną wagę, nie interesuje nas konkretna osoba, ale wynik bmi dla tych wymiarów, nie piszemy self, bo nie jest na konkretny obiekt
+			staticmethod wywołuje się na klasie a nie na obiekcie, np. Human.get_average_age()
+			gdy chcemy skorzystać ze statycznej metody to odnosimy się przez self
+""" opis metody """	dokumentacja kodu dla innych programistów
+PEP8			standardy pythona. Wystarczy wpisać w google.
+@classmethod		dekoratorużywany do tworzenia nowych obiektów w klasie. cls - wskazuje na klasę np. cls = Human, **data - wypakowuje słownik aby przypisać do obiektu wartości. *data - wypakowuje listę. Nie działa poza klasą.
+self, cls		te nazwy sa tylko umowne, równie dobrze mogłoby być "self2" lub "param"
+Cell->all output->clear	przed commitem, czyścimy wyniki outputów, bo zajmują miejsce i mogą zawierać dane ze zbiorów i dane osobowe
+
+
+LINUX:
+cp <ścieżka i nazwa pliku> <ścieżka docelowa i nazwa pliku> kopiowanie pliku z jednej lokalizacji do drugiej
+
+ 
+
+sudo dpkg -i dbeaver-ce_5.2.3_amd64.deb
+
